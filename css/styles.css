@@ -1,38 +1,49 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
+    font-size: 24px; /* Tamaño de la letra base para todo el cuerpo */
     margin: 0;
     padding: 0;
-    background-color: #ffffffac;
+    background-color: #ffffffac; 
 }
 
+body {
+    height: 100%;
+    background: url('images/fond.jpg') no-repeat center center fixed; /* Ruta a tu imagen de fondo */
+    background-size: cover; /* Ajusta la imagen para cubrir toda la pantalla */
+}
+
+/* Aumenta el tamaño de la letra para el encabezado */
 header {
     background: #a7ddec;
     color: #fff;
-    padding: 10px 0;
+    padding: 20px 0; /* Incrementa el padding para mayor espacio */
     text-align: center;
+    font-size: 26px; /* Tamaño de la letra para el header */
 }
 
-nav ul {
-    list-style: none;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin: 0 10px;
-}
-
+/* Aumenta el tamaño de la letra para el menú de navegación */
 nav ul li a {
     color: #000000;
     text-decoration: none;
+    font-size: 20px; /* Tamaño de la letra para los enlaces de navegación */
 }
 
 main {
     padding: 20px;
+    font-family: 22px; /* Tamaño de la letra para el contenido principal */
 }
 
-h1, h2 {
+/* Estilo y tamaño de la letra para los encabezados */
+h1 {
+    font-size: 36px; /* Tamaño de la letra para h1 */
     color: #333;
+    font-family: 'Times New Roman', serif; /* Cambia el estilo de la letra */
+}
+
+h2 {
+    font-size: 28px; /* Tamaño de la letra para h2 */
+    color: #333;
+    font-family: 'Times New Roman', serif; /* Cambia el estilo de la letra */
 }
 
 img {
